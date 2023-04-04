@@ -1,0 +1,123 @@
+{
+    "apartments": [
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Kileleshwa",
+        "price": 500000,
+        "room_size": 800,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+    },
+    {
+        "id": 2,
+        "image":"src",
+        "location": "Langata",
+        "price": 300000,
+        "room_size": 900,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Parklands",
+        "price": 200000,
+        "room_size": 1000,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Westlands",
+        "price": 500000,
+        "room_size": 800,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Woodley",
+        "price": 300000,
+        "room_size": 900,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Langata",
+        "price": 200000,
+        "room_size": 1000,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Parklands",
+        "price": 500000,
+        "room_size": 800,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Westlands",
+        "price": 300000,
+        "room_size": 900,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Woodley",
+        "price": 200000,
+        "room_size": 1000,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Kileleshwa",
+        "price": 500000,
+        "room_size": 800,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Parklands",
+        "price": 300000,
+        "room_size": 900,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+
+      },
+      {
+        "id": 1,
+        "image":"src",
+        "location": "Woodley",
+        "price": 200000,
+        "room_size": 1000,
+        "mobile": "0700123456",
+        "Email": "dummyemail@gmail.com"
+      }
+    ]
+  }
+  
