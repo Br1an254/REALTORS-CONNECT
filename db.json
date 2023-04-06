@@ -1,123 +1,124 @@
 {
-    "apartments": [
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Kileleshwa",
-        "price": 500000,
-        "room_size": 800,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
+  "apartments": [
+    {
+      "id": 1,
+      "name": "Block one apartment",
+      "image": "https://rb.gy/o0pwd",
+      "location": "Kileleshwa",
+      "price": 500000,
+      "room_size": 800,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
     },
     {
-        "id": 2,
-        "image":"src",
-        "location": "Langata",
-        "price": 300000,
-        "room_size": 900,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Parklands",
-        "price": 200000,
-        "room_size": 1000,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Westlands",
-        "price": 500000,
-        "room_size": 800,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Woodley",
-        "price": 300000,
-        "room_size": 900,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Langata",
-        "price": 200000,
-        "room_size": 1000,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Parklands",
-        "price": 500000,
-        "room_size": 800,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Westlands",
-        "price": 300000,
-        "room_size": 900,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Woodley",
-        "price": 200000,
-        "room_size": 1000,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Kileleshwa",
-        "price": 500000,
-        "room_size": 800,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Parklands",
-        "price": 300000,
-        "room_size": 900,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-
-      },
-      {
-        "id": 1,
-        "image":"src",
-        "location": "Woodley",
-        "price": 200000,
-        "room_size": 1000,
-        "mobile": "0700123456",
-        "Email": "dummyemail@gmail.com"
-      }
-    ]
-  }
-  
+      "id": 2,
+      "name": "Block two apartment",
+      "image": "https://rb.gy/qrzdj",
+      "location": "Langata",
+      "price": 300000,
+      "room_size": 900,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Block three apartment",
+      "image": "https://rb.gy/a78gf",
+      "location": "Parklands",
+      "price": 200000,
+      "room_size": 1000,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Block four apartment",
+      "image": "https://rb.gy/u3y4q",
+      "location": "Westlands",
+      "price": 500000,
+      "room_size": 800,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Block five apartment",
+      "image": "https://rb.gy/ujtrg",
+      "location": "Woodley",
+      "price": 300000,
+      "room_size": 900,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Block six apartment",
+      "image": "https://rb.gy/qith9",
+      "location": "Langata",
+      "price": 200000,
+      "room_size": 1000,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Block seven apartment",
+      "image": "https://rb.gy/v1rgg",
+      "location": "Parklands",
+      "price": 500000,
+      "room_size": 800,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Block eight apartment",
+      "image": "https://rb.gy/eycfi",
+      "location": "Westlands",
+      "price": 300000,
+      "room_size": 900,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Block nine apartment",
+      "image": "https://rb.gy/ugvgm",
+      "location": "Woodley",
+      "price": 200000,
+      "room_size": 1000,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Block ten apartment",
+      "image": "https://rb.gy/o0016",
+      "location": "Kileleshwa",
+      "price": 500000,
+      "room_size": 800,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Block eleven apartment",
+      "image": "https://rb.gy/ti5s0",
+      "location": "Parklands",
+      "price": 300000,
+      "room_size": 900,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Block twelve apartment",
+      "image": "https://rb.gy/s68jo",
+      "location": "Woodley",
+      "price": 200000,
+      "room_size": 1000,
+      "mobile": "0700123456",
+      "Email": "dummyemail@gmail.com"
+    }
+  ]
+}

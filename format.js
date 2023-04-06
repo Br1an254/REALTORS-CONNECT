@@ -1,9 +1,10 @@
 fetch("http://localhost:3000/apartments")
     .then(response => response.json())
+
+
     .then(data => {
         // Content container
         let container = document.getElementById('container');
-        container.innerHTML = ''; // clear container before appending new elements
 
         data.forEach(apartment => {// iterate through db.json
             let divEl = document.createElement('div')// create a div element
@@ -49,4 +50,4 @@ fetch("http://localhost:3000/apartments")
             container.appendChild(divEl); // append elements to our div container
             
         });  
-    })
+     })
