@@ -4,50 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>REALTORS CONNECT</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1 class="main-header">REALTORS CONNECT</h1>
-    <!-- FORM -->
-    <form action="" method="post">
-      <!-- location input -->
-      <label for="location">Location :</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        placeholder="House location"
-      />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>REALTORS CONNECT</title>
+      </head>
+      <body>
+        <h1 class="main-header">REALTORS CONNECT</h1>
+        <!-- FORM -->
+        <div class="main-containe">
+          <!-- location input -->
+          <label for="location">Location :</label>
+          <input
+            type="text"
+            id="location"
+            name="name"
+            placeholder="House location"
+          />
 
-      <!-- location input -->
-      <!-- <label for="location">Size :</label> -->
-      <!-- <input
-        type="text"
-        id="name"
-        name="name"
-        placeholder="Room size"
-        required
-      /> -->
+          <!-- Price input -->
+          <label for="price">Price :</label>
+          <input
+            type="number"
+            id="price"
+            name="price"
+            min="0"
+            placeholder="Price"
+          />
 
-      <!-- Price input -->
-      <label for="price">Price :</label>
-      <input
-        type="number"
-        id="price"
-        name="price"
-        min="0"
-        placeholder="Price"
-      />
-
-      <!-- button -->
-      <button class="form-button">Submit</button>
-    </form>
-
-    <!-- main content container -->
-
-    <main class="container" id="container"></main>
-    <!-- main content container -->
-    <script src="index.js"></script>
+          <!-- button -->
+          <button id="form-button" class="form-button">Submit</button>
+          </div>
+        <!-- main content container -->
+        <main class="container" id="container"></main>
+        <!-- main content container -->
+        <script src="index.js"></script>
+      </body>
+    </html>
   </body>
 </html>
