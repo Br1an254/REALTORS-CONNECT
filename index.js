@@ -4,51 +4,51 @@ fetch("http://localhost:3000/apartments")
         // Content container
         let container = document.getElementById('container');
 
-        data.forEach(apartment => {// iterate through db.json
-            let divEl = document.createElement('div')// create a div element
-            divEl.className = 'apartment-card';// div class
+        // data.forEach(apartment => {// iterate through db.json
+        //     let divEl = document.createElement('div')// create a div element
+        //     divEl.className = 'apartment-card';// div class
 
-            let imgEl = document.createElement('img'); // create image element
-            imgEl.src = apartment.image; // image source
-            imgEl.alt = 'Apartment images' // image alt
+        //     let imgEl = document.createElement('img'); // create image element
+        //     imgEl.src = apartment.image; // image source
+        //     imgEl.alt = 'Apartment images' // image alt
 
-            let h2El = document.createElement('h2'); //create h2 element
-            h2El.innerHTML = apartment.name;
-
-
-            let locationEl = document.createElement('p'); // create location element
-            locationEl.id = 'location';
-            locationEl.innerHTML = `Location : ${apartment.location}`;
-
-            let priceEl = document.createElement('p'); // create price element
-            priceEl.id = 'price';
-            priceEl.innerHTML = `Price : ${apartment.price}`;
+        //     let h2El = document.createElement('h2'); //create h2 element
+        //     h2El.innerHTML = apartment.name;
 
 
-            let textContainer = document.createElement('div'); // text container
-            textContainer.className = 'textcontainer';
-            textContainer.appendChild(locationEl);
-            textContainer.appendChild(priceEl);
+        //     let locationEl = document.createElement('p'); // create location element
+        //     locationEl.id = 'location';
+        //     locationEl.innerHTML = `Location : ${apartment.location}`;
 
-            let detailsButtonEl = document.createElement('button'); // details button
-            detailsButtonEl.innerHTML = 'Details'
-            let removeButtonEl = document.createElement('button'); // remove button
-            removeButtonEl.innerHTML = 'Remove'
-            let buttonContainer = document.createElement('div'); // button container
-            buttonContainer.className = 'buttoncontainer'
-            buttonContainer.appendChild(detailsButtonEl);
-            buttonContainer.appendChild(removeButtonEl);
+        //     let priceEl = document.createElement('p'); // create price element
+        //     priceEl.id = 'price';
+        //     priceEl.innerHTML = `Price : ${apartment.price}`;
 
 
+        //     let textContainer = document.createElement('div'); // text container
+        //     textContainer.className = 'textcontainer';
+        //     textContainer.appendChild(locationEl);
+        //     textContainer.appendChild(priceEl);
 
-            divEl.appendChild(imgEl); // append elements to our div container
-            divEl.appendChild(h2El); // append h2
-            divEl.appendChild(textContainer);
-            divEl.appendChild(buttonContainer); // append buttons container to div container
-            container.appendChild(divEl); // append elements to our div container
+        //     let detailsButtonEl = document.createElement('button'); // details button
+        //     detailsButtonEl.innerHTML = 'Details'
+        //     let removeButtonEl = document.createElement('button'); // remove button
+        //     removeButtonEl.innerHTML = 'Remove'
+        //     let buttonContainer = document.createElement('div'); // button container
+        //     buttonContainer.className = 'buttoncontainer'
+        //     buttonContainer.appendChild(detailsButtonEl);
+        //     buttonContainer.appendChild(removeButtonEl);
 
 
-        });
+
+        //     divEl.appendChild(imgEl); // append elements to our div container
+        //     divEl.appendChild(h2El); // append h2
+        //     divEl.appendChild(textContainer);
+        //     divEl.appendChild(buttonContainer); // append buttons container to div container
+        //     container.appendChild(divEl); // append elements to our div container
+
+
+        // });
 
 
         let locationValue = document.getElementById('location');
@@ -62,7 +62,7 @@ fetch("http://localhost:3000/apartments")
                     data.forEach(apartment => {
 
                         if (apartment.location === locationValue.value || apartment.price === parseInt(priceValue.value)) {
-                            console.log(apartment)
+                            // console.log(apartment)
 
                             let divEl = document.createElement('div')// create a div element
                             divEl.className = 'apartment-card';// div class
@@ -104,10 +104,13 @@ fetch("http://localhost:3000/apartments")
                             divEl.appendChild(h2El); // append h2
                             divEl.appendChild(textContainer);
                             divEl.appendChild(buttonContainer); // append buttons container to div container
-                            // container.appendChild(divEl); // append elements to our div container
+                            container.appendChild(divEl); // append elements to our div container
+                            
 
-                            let arrayCollection = Array.from(document.getElementsByClassName('apartment-card'));
-                            console.log(arrayCollection.splice(0, 12));
+                            // let arrayCollection = Array.from(document.getElementsByClassName('apartment-card'));
+                            // console.log(arrayCollection.splice(0, 12));
+
+                            console.log(apartment)
 
                         }
                     })
