@@ -3,5 +3,24 @@
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
-  }
+  },
+  "name": "realtors-connect",
+  "description": "https://br1an254.github.io/REALTORS-CONNECT/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Br1an254/REALTORS-CONNECT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Br1an254/REALTORS-CONNECT/issues"
+  },
+  "homepage": "https://github.com/Br1an254/REALTORS-CONNECT#readme"
 }

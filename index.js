@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/apartments")
+fetch("https://realtors-data.onrender.com/apartments")
     .then(response => response.json())
     .then(data => {
         // Content container
@@ -56,7 +56,7 @@ fetch("http://localhost:3000/apartments")
         let button = document.getElementById('form-button');
 
         button.addEventListener('click', () => {
-            fetch(db.json)
+            fetch("https://realtors-data.onrender.com/apartments")
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(apartment => {
