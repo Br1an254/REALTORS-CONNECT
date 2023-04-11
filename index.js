@@ -56,7 +56,7 @@ fetch("http://localhost:3000/apartments")
         let button = document.getElementById('form-button');
 
         button.addEventListener('click', () => {
-            fetch("http://localhost:3000/apartments")
+            fetch(db.json)
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(apartment => {
