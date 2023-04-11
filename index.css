@@ -5,6 +5,12 @@
     font-size: 20px;
 }
 
+.alert-message {
+    margin: auto;
+    font-size: 1.5rem;
+    color: red;
+}
+
 body {
     display: grid;
     /* background-color: black; */
